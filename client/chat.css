@@ -114,7 +114,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  font_size:1rem;
+  font_size:2rem;
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -124,7 +124,7 @@ textarea {
   width: 100%;
 
   color: #fff;
-  font-size: 1rem;
+  font-size: 2rem;
 
   padding: 5px;
   background: transparent;
@@ -156,13 +156,13 @@ form img {
     border-left: 100px; 
     border-right: 100px ;
     position: relative;
-    font-size: small;
+    font-size: 2rem;
     border-radius: 3%;
     color: whitesmoke;
   }
   textarea{
     padding-left: 50px;
-    font-size: smaller;
+    font-size: 2rem;
     color: whitesmoke;
   }
   #app {
