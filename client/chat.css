@@ -9,7 +9,7 @@
 
 body, html {
   background: black;
-  margin-top: 90px;
+  margin-top: 50px;
 }
 title {
   font-style: italic;
@@ -114,6 +114,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
+  font_size:1rem;
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -123,7 +124,7 @@ textarea {
   width: 100%;
 
   color: #fff;
-  font-size: 2rem;
+  font-size: 1rem;
 
   padding: 5px;
   background: transparent;
@@ -161,7 +162,7 @@ form img {
   }
   textarea{
     padding-left: 50px;
-    font-size: medium;
+    font-size: smaller;
     color: whitesmoke;
   }
   #app {
