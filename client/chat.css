@@ -9,6 +9,7 @@
 
 body, html {
   background: black;
+  margin-top: 90px;
 }
 title {
   font-style: italic;
@@ -29,7 +30,7 @@ title {
   width: 100%;
   height: fit-content;
   overflow-y: scroll;
- display: flex;
+  display: flex;
   flex-direction: column;
   gap: 5px;
 
@@ -38,7 +39,6 @@ title {
 
   padding-bottom: 10px;
   scroll-behavior: smooth;
-  margin-bottom: 100px;
 }
 
 /* hides scrollbar */
@@ -114,7 +114,6 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -126,7 +125,7 @@ textarea {
   color: #fff;
   font-size: 2rem;
 
-  padding: 10px;
+  padding: 5px;
   background: transparent;
   border-radius: 5px;
   border: none;
@@ -153,11 +152,11 @@ form img {
   }
   form {
     text-align: center;
-    border-left: 70px; 
-    border-right: 70px ;
+    border-left: 100px; 
+    border-right: 100px ;
     position: relative;
-    font-size: medium;
-    border-radius: 2%;
+    font-size: small;
+    border-radius: 3%;
     color: whitesmoke;
   }
   textarea{
@@ -171,9 +170,5 @@ form img {
     position: static;
     text-align: left;
 
-  }
-  #chat_container{
-    margin-bottom: 100px;
-  }
-  
+  } 
 }
